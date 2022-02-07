@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{ 
+    background-color:/* rgb(248, 233, 218)*/ rgb(121, 5, 121);
+}
+/*header{
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    display: block;
+}*/
+nav{
+    background-color: black;
+    height: 41px;
+    
+}
+nav ul{
+    display: flex;
+    color: white; 
+    list-style: none;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.name{
+    padding: 0 8px;
+}
+.container{
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.bottom{
+    position: sticky;
+    background-color: black; 
+    color: white; 
+    height: 120px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myprogressbar{
+    width: 80vw;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.songitem{
+   /* height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;*/
+    height: 47px; 
+display: flex;
+background-color: white;
+width: 30vw;
+color: black;
+margin: 0.5rem 0px;
+justify-content: space-between;
+align-items: center;
+border-radius: 2.5rem;
+}
+.songitem img{
+    width: 43px;
+    margin: 0px 23px;
+    border-radius: 20px;
+}
+.timestamp{
+    margin: 0px 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 60px; 
+}
+.songinfo{
+  position: absolute; 
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+.songname{
+    font-size: 0.95rem;
+}
+#prev{
+  cursor: pointer;
+}
+#next{
+    cursor: pointer;
+}
+#masterPlay{
+    cursor: pointer;
+}
